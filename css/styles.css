@@ -12,8 +12,15 @@ body{
    .site-nave .link{
     color: #212121;
    }
-   .site-nave .link:hover {
+   .site-nave .link:hover,
+   .site-nave .link:focus {
     color:#2196F3;
+   }
+   .email{
+    color:#2196F3;
+   }
+   .phone{
+    color: #757575;
    }
 
     
