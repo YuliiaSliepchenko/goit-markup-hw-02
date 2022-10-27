@@ -24,9 +24,7 @@ body{
    .logo-link {
     color:var(--accent-color);             
 }
-   .logo-footer{
-    color:var(--primary-white-color);
-}
+  
    .site-nave .link{
     color: var(--primary-text-color);
    }
@@ -61,14 +59,27 @@ body{
     color: var(--primary-text-color);
     background-color: var(--secondary-text-color);
    }
-   /*  */
+   /* main-page */
    .feature-list .title{
     color: var(--primary-text-color);
   }
   .feature-list .discription{
     color: var(--secondary-text-color);
-
   }
+  /* footer */
+  .footer{
+  background-color: var(--bgr-darck-color);
+  }
+  .logo-footer{
+    color:var(--primary-white-color);
+  }
+  .footer .address-link{
+    color: var(--primary-white-color);
+  }
+  .footer .link{
+    color: var(--secondary-white-color);
+  }
+  
 
 
 
