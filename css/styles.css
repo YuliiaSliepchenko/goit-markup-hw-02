@@ -16,12 +16,14 @@ body{
    .site-nave .link:focus {
     color:#2196F3;
    }
-   .email{
-    color:#2196F3;
-   }
-   .phone{
+   .adress-head .link{
     color: #757575;
    }
+   .adress-head .link:hover,
+   .adress-head .link:focus {
+    color: #2196F3;
+   }
+
 
     
     
