@@ -24,7 +24,7 @@ body{
    .logo{
     color: #000000;
    } 
-   .logo-link {
+   .logo-link { 
     color:var(--accent-color);             
 }
   
