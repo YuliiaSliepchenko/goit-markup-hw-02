@@ -24,7 +24,6 @@ body {
 }
 /* site-nave */
 
-
 .logo-link {
   color: var(--accent-color);
 }
@@ -36,9 +35,9 @@ body {
 .site-nave .link:focus {
   color: var(--accent-color);
 }
+
 .site-nave .link.current{
  color: var(--accent-color);
-
 }
 
 .adress-head .link {
@@ -90,11 +89,9 @@ body {
 .footer .address-link {
   color: var(--primary-white-color);
 }
-
 .footer .link {
   color: var(--secondary-white-color);
 }
-
 
 /* main background white:    #F5F5F5 */
 /* second text white         #FFFFFF */
