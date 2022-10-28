@@ -93,12 +93,14 @@ body {
 .logo-footer {
   color: var(--primary-white-color);
 }
-.footer .address-link {
-  color: var(--primary-white-color);
-}
-.footer .link {
+.footer-adress {
   color: var(--secondary-white-color);
 }
+.footer-adress .link:hover,
+.footer-adress .link:focus {
+  color: var(--primary-white-color);
+} 
+
 
 /* main background white:    #F5F5F5 */
 /* second text white         #FFFFFF */
@@ -108,3 +110,5 @@ body {
 /* main text black           #212121 */
 /* second text grey          #757575*/
 /* footer-grayrgba(255, 255, 255, 0.6) */
+/* Font Raleway Weight 700 */
+/* Font Roboto Weight 400, 500, 700, 900 */
