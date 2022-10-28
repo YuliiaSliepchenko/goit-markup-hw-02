@@ -66,6 +66,13 @@ body {
   color: var(--primary-text-color);
   background-color: var(--bgr-grey-color);
 }
+
+  .button-secondary .link:hover,
+  .button-secondary .link:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+  }
+
 /* main-page */
 .feature-list .title {
   color: var(--primary-text-color);
