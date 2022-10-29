@@ -31,10 +31,10 @@ body {
 .site-nave .link {
   color: var(--primary-text-color);
 }
-.site-nave .link:hover,
+ .site-nave .link:hover,
 .site-nave .link:focus {
   color: var(--accent-color);
-}
+} 
 
 .site-nave .link.current{
  color: var(--accent-color);
@@ -86,21 +86,23 @@ body {
 .block-photo .discription {
   color: var(--secondary-text-color);
 }
+
 /* footer */
+
 .footer {
   background-color: var(--bgr-darck-color);
 }
-.logo-footer {
+.logo-footer{
   color: var(--primary-white-color);
 }
-.footer-adress {
+.footer-nave .link{
   color: var(--secondary-white-color);
 }
-.footer-adress .link:hover,
-.footer-adress .link:focus {
+ .footer-nave .link:hover,
+.footer-nave .link:focus {
   color: var(--primary-white-color);
 } 
-
+ 
 
 /* main background white:    #F5F5F5 */
 /* second text white         #FFFFFF */
