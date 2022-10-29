@@ -95,7 +95,13 @@ body {
 .button-prymary {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
 }
+
 .button-secondary {
   color: var(--primary-text-color);
   background-color: var(--bgr-grey-color);
@@ -111,12 +117,35 @@ body {
   }
 
 /* main-page */
-.feature-list .title {
+
+.feature-list .title,
+.our-team .title {
   color: var(--primary-text-color);
+
+ font-weight: 700;
+ font-size: 14px;
+ line-height: 1.14;
 }
-.feature-list .discription {
+.feature-list .discription,
+.our-team .discription
+{
   color: var(--secondary-text-color);
+
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 1.71;
 }
+
+.action-photo .title{
+  color: var(--primary-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+
+}
+
 .block-photo .title {
   color: var(--primary-text-color);
 }
