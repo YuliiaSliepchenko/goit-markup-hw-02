@@ -22,6 +22,7 @@ body {
 .list {
   list-style: none;
 }
+
 .logo {
   color: #000000;
   font-family: Raleway;
@@ -31,6 +32,7 @@ body {
  line-height: 1.19;
 
 }
+
 /* site-nave */
 
 .logo-link {
@@ -86,25 +88,38 @@ body {
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
-  text-transform: uppercase;
 }
 /* button */
 .button {
   color: var(--primary-text-color);
 }
-.button-prymary {
+
+.button-main{
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
+   text-align: center;
   letter-spacing: 0.06em;
+}
+.button-prymary {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
 }
 
 .button-secondary {
   color: var(--primary-text-color);
   background-color: var(--bgr-grey-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62px;
 }
 
   .button-secondary .link:hover,
@@ -136,7 +151,17 @@ body {
  line-height: 1.71;
 }
 
-.action-photo .title{
+.main-title{
+  color: var(--primary-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+
+}
+
+.action-photo .title {
   color: var(--primary-text-color);
 
   font-weight: 700;
@@ -148,9 +173,18 @@ body {
 
 .block-photo .title {
   color: var(--primary-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2.0;
+letter-spacing: 0.06em;
 }
 .block-photo .discription {
   color: var(--secondary-text-color);
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
 }
 
 /* footer */
@@ -160,12 +194,21 @@ body {
 }
 .logo-footer{
   color: var(--primary-white-color);
+
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 .footer-nave .link{
   color: var(--secondary-white-color);
+
+  font-weight: 400;
+ font-size: 14px;
+ line-height: 1.71;
 }
  .footer-nave .link:hover,
-.footer-nave .link:focus {
+ .footer-nave .link:focus {
   color: var(--primary-white-color);
 } 
  
