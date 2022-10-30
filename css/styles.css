@@ -208,8 +208,8 @@ letter-spacing: 0.06em;
   color: var(--secondary-text-color);
 
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1.7;
+  font-size: 16px;
+  line-height: 1.88;
 }
 
 /* footer */
@@ -226,17 +226,33 @@ letter-spacing: 0.06em;
   line-height: 1.19;
   text-decoration: none;
 }
+.footer-adress .link{
+  color: var(--primary-white-color);
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none; 
+  font-style: normal;
+}
+ .footer-adress .link:hover,
+ .footer-adress .link:focus {
+  color: var(--accent-color);
+} 
+
+
 .footer-nave .link{
   color: var(--secondary-white-color);
 
   font-weight: 400;
- font-size: 14px;
- line-height: 1.71;
- text-decoration: none;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
+  font-style: normal
 }
- .footer-nave .link:hover,
- .footer-nave .link:focus {
-  color: var(--primary-white-color);
+  .footer-nave .link:hover,
+  .footer-nave .link:focus {
+  color: var(--accent-color);
 } 
  
 
