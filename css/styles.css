@@ -10,6 +10,7 @@
 }
 section {
   background-color: var(--primary-white-color);
+  te
 }
 body {
   background-color: var(--bgr-white-color);
@@ -31,6 +32,8 @@ body {
  font-size: 26px;
  line-height: 1.19;
 
+ text-decoration: none;
+
 }
 
 /* site-nave */
@@ -42,6 +45,7 @@ body {
  font-weight: 700;
  font-size: 26px;
  line-height: 1.19;
+ text-decoration: none;
 }
 
 .site-nave .link {
@@ -51,6 +55,7 @@ body {
  font-size: 14px;
  line-height: 1.14;
  letter-spacing: 0.02em;
+ text-decoration: none;
 
 }
  .site-nave .link:hover,
@@ -69,6 +74,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 
 }
 .adress-head .link:hover,
@@ -88,6 +94,7 @@ body {
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 /* button */
 .button {
@@ -113,13 +120,15 @@ body {
   line-height: 1.62;
 }
 
-.button-secondary {
+.button-secondary .link {
   color: var(--primary-text-color);
   background-color: var(--bgr-grey-color);
 
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.62px;
+  line-height: 1.62;
+
+  font-family: inherit;
 }
 
   .button-secondary .link:hover,
@@ -133,16 +142,15 @@ body {
 
 /* main-page */
 
-.feature-list .title,
-.our-team .title {
-  color: var(--primary-text-color);
+.feature-list .title
+{
+ color: var(--primary-text-color);
 
  font-weight: 700;
  font-size: 14px;
  line-height: 1.14;
 }
-.feature-list .discription,
-.our-team .discription
+.feature-list .discription
 {
   color: var(--secondary-text-color);
 
@@ -169,6 +177,23 @@ body {
   line-height: 1.16;
   text-align: center;
 
+}
+.our-team .title{
+  color: var(--primary-text-color);
+  
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  
+}
+.our-team .discription
+{
+  color: var(--secondary-text-color);
+  
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+ 
 }
 
 .block-photo .title {
@@ -199,6 +224,7 @@ letter-spacing: 0.06em;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  text-decoration: none;
 }
 .footer-nave .link{
   color: var(--secondary-white-color);
@@ -206,6 +232,7 @@ letter-spacing: 0.06em;
   font-weight: 400;
  font-size: 14px;
  line-height: 1.71;
+ text-decoration: none;
 }
  .footer-nave .link:hover,
  .footer-nave .link:focus {
