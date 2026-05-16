@@ -7,10 +7,10 @@
   --secondary-white-color: rgba(255, 255, 255, 0.6);
   --bgr-grey-color: #f5f4fa;
   --bgr-darck-color: #2f303a;
+  
 }
 section {
-  background-color: var(--primary-white-color);
-  te
+  background-color: var(--primary-white-color); 
 }
 body {
   background-color: var(--bgr-white-color);
